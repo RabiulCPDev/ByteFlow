@@ -1,0 +1,52 @@
+# ── Global ─────────────────────────────────────────────────────────────────────
+# macOS file locks, Windows thumbs, log files, editor folders, env files
+.DS_Store
+Thumbs.db
+*.log
+.env
+.vscode/
+.idea/
+
+# ── .NET / Visual Studio ──────────────────────────────────────────────────────
+# Build outputs, user settings, EF migrations
+[Bb]in/
+[Oo]bj/
+*.user
+*.suo
+*.cache
+*.dbmdl
+*.bak
+.vs/
+Migrations/
+
+# ── Node / React ───────────────────────────────────────────────────────────────
+# dependencies and build output
+/frontend/node_modules/
+/frontend/build/
+/frontend/dist/
+/frontend/.env.local
+/frontend/.env.development.local
+/frontend/.env.test.local
+/frontend/.env.production.local
+
+# ── Flutter / Dart ────────────────────────────────────────────────────────────
+# build outputs, tool settings, pods, caches
+/mobile/build/
+/mobile/.dart_tool/
+/mobile/.packages
+/mobile/.flutter-plugins
+/mobile/.flutter-plugins-dependencies
+/mobile/flutter_export_environment.sh
+/mobile/pubspec.lock
+
+# Xcode artifacts (iOS)
+/mobile/ios/Pods/
+/mobile/ios/Runner.xcworkspace/
+/mobile/ios/Flutter/Flutter.framework
+/mobile/ios/Flutter/Flutter.podspec
+/mobile/ios/Generated.xcconfig
+
+# Android artifacts
+/mobile/android/.gradle/
+/mobile/android/app/build/
+/mobile/android/local.properties
